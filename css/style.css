@@ -1,0 +1,54 @@
+body {
+    background-image: url(../img/bg.jpg);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-input {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f0efef;
+}
+
+.guess-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(44, 58, 255);
+}
+.guess-button:hover {
+    background-color: rgb(2, 11, 129);
+}
+
+.play-again-button {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #333;
+    background-color: #dadada;
+}
+.play-again-button:hover {
+    color: #fff;
+    background-color: rgb(95, 94, 94);
+}
